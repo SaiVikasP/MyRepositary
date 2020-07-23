@@ -12,7 +12,7 @@
 		a:link,a:visited {
 			text-decoration: blink;
 			background-color: solid blue;
-			border: 2px solid red;
+			border: 2px solid purple;
 			border-radius: 10px;
 			color: black;
 			display: block;
@@ -26,7 +26,6 @@
 			background-color: black;
 			color: white;
 		}
-
 
 		ol li {
 			color: blue;
@@ -59,7 +58,11 @@
 		}
 		#films a:hover,#films a:active {
 			background-color: black;
-			color: white;
+			color: red;
+		}
+		div a:hower,div a:active {
+			background-color: white;
+			color: black;
 		}
 		li p {
 			color: crimson;
@@ -91,6 +94,11 @@
 			<li><a href="#Mainstream">Mainstream film acclaim and success</a></li>
 			<li><a href="#Stardom">Stardom and career setback</a></li>
 			<li><a href="#films">List of Films</a></li>
+				<ul><div>
+					<li><a href="#child">Child Artist</a></li>
+					<li><a href="#Lead">Lead Role</a></li>
+					<li><a href="#voice-over">Voice-over</a></li>
+				</ul></div>
 			<li><a href="#FullContent">Full Content</a></li>
 		</ul>
 	</section>
@@ -142,8 +150,9 @@ Babu had two releases in 2014, the first one being Sukumar's 1: Nenokkadine, an 
 
 	<section id="films">
 		<h3>List of Films</h3>
+
 		<ul>
-			<li>As Child Artist:
+			<li id="child">As Child Artist:
 				<ol>
 					<li>Needa</li>
 					<li>Poratam</li>
@@ -156,7 +165,7 @@ Babu had two releases in 2014, the first one being Sukumar's 1: Nenokkadine, an 
 					<li>Balachandrudu</li>
 				</ol>
 			</li>
-			<li>As Lead Role:<p>(Click on the film name for Wikipedia!)</p>
+			<li id="Lead">As Lead Role:<p>(Click on the film name for Wikipedia!)</p>
 				<ol>
 					<li><a href="https://en.wikipedia.org/wiki/Raja_Kumarudu" target="_blank">Raja Kumarudu</a>  </li>
 					<li><a href="https://en.wikipedia.org/wiki/Yuvaraju"target="_blank">Yuvaraju</a></li>
@@ -187,7 +196,7 @@ Babu had two releases in 2014, the first one being Sukumar's 1: Nenokkadine, an 
 
 				</ol>
 			</li>
-			<li><p>Voice Over:</p>
+			<li id="voice-over">Voice Over:
 					<ol>
 						<li>Jalsa</li>
 						<li>Baadshah</li>
