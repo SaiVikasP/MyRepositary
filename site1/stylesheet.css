@@ -6,16 +6,33 @@ body {
 
 a {
 	font-family: Times, Times New Roman, serif;
-    text-transform: uppercase;
+    text-transform: unset;
     font-size: 16px;
+
 
 }
 
 
 
 #top {
-	font-family: Impact, Charcoal, sans-serif;
-    font-size: 50px;
-    text-decoration: none;
+	/*text-decoration: blink;
+			background-color: solid black;*/
+			border: 2px solid midnightblue;
+			border-radius: 1000px;
+			color: darkblue;
+			display: block;
+			
+			text-align: center;
+			margin-bottom: 3px;
+			font-size: 50px;
+
+			font-family: Impact, Charcoal, sans-serif;
+    
     
 }
+
+#top:hover, #top:active {
+			background-color: lightsteelblue;
+			/*color: aqua;*/
+  			
+		}
