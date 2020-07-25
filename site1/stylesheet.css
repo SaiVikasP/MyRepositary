@@ -2,6 +2,8 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	margin: 20px;
+    
+    clear: both;
 
 
 }
@@ -42,10 +44,30 @@ a {
 
 #Lead ul, #child ul, #voice-over ul {
 	height: 150px;
+	width: 300px;
+	
 	box-sizing: scroll;
 	overflow: auto;
-	margin: 5px;
-	padding: 5px 10px 5px 10px;
+	margin-right: 10px;
 	border: 5px solid midnightblue;
-	width: 400px;
+	margin: 20px;
+	border-radius: 10px;
+	
+	
+	}
+
+#Lead, #child, #voice-over {
+	margin: 10px;
+	border: 10px;
+	float: left;
 }
+section {
+	clear: both;
+}
+
+/*#Lead, #child, #voice-over {
+	position: relative;
+	top: 10px;
+	left: 10px;
+}*/
+
