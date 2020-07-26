@@ -62,7 +62,8 @@ a {
 	float: left;
 }
 section {
-	clear: both;
+	clear: left;
+	
 }
 
 /*#Lead, #child, #voice-over {
