@@ -33,8 +33,8 @@ a {
 			font-family: Impact, Charcoal, sans-serif;
 			margin: 10px 100px 10px 100px;
 			padding: 20px;
+		}
     
-}
 
 #top:hover, #top:active {
 			background-color: lightsteelblue;
@@ -45,21 +45,27 @@ a {
 #Lead ul, #child ul, #voice-over ul {
 	height: 150px;
 	width: 300px;
-	
+	background-color: #FFE4E1;
 	box-sizing: scroll;
 	overflow: auto;
 	margin-right: 10px;
 	border: 5px solid midnightblue;
-	margin: 20px;
+	margin: 10px 40px 10px 40px;
 	border-radius: 10px;
-	
+	border: 10px 30px 10px 5px;
 	
 	}
 
 #Lead, #child, #voice-over {
 	margin: 10px;
-	border: 10px;
+	border: 2px solid black;
 	float: left;
+	margin: 10px 20px 10px 20px;
+	background-color: #FFFFE0;
+	background-image: url("MB.jpg") no-repeat;
+	background-position: top left;
+	border-radius: 15px;
+	text-align: center;
 }
 section {
 	clear: left;
