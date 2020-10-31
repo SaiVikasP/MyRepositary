@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Mahesh Babu</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet2.css">
 	<style>
 		h1 {
 			color: navy;
@@ -11,8 +12,9 @@
 		}
 		a:link,a:visited {
 			text-decoration: blink;
-			background-color: solid blue;
-			border: 2px solid grey;
+			/*background-color: solid blue;*/
+			border: 2px solid purple;
+			border-radius: 1000px;
 			color: black;
 			display: block;
 			width: 400px;
@@ -22,10 +24,9 @@
 		}
 
 		a:hover,a:active {
-			background-color: black;
+			background-color: slateblue;
 			color: white;
 		}
-
 
 		ol li {
 			color: blue;
@@ -33,9 +34,12 @@
 		}
 		ul > li {
 			text-decoration: blink;
-			color: red;
+			color: #8B0000;
 			font-size: 20px;
 
+		}
+		ul > ol {
+			padding-left: 0;
 		}
 		
 		h3 {
@@ -58,15 +62,27 @@
 		}
 		#films a:hover,#films a:active {
 			background-color: black;
-			color: white;
+			color: red;
+		}
+		div a:hower,div a:active {
+			background-color: white;
+			color: black;
 		}
 		li p {
 			color: crimson;
 		}
 		#FullContent > div {
+			clear: both;
 			color: purple;
 			font-style: italic;
 		}
+		img {
+			align-items: center;
+			border:2px solid black;
+			margin-right: 5px;
+
+		}
+
 	</style>
 
 
@@ -84,14 +100,18 @@
 			<li><a href="#Mainstream">Mainstream film acclaim and success</a></li>
 			<li><a href="#Stardom">Stardom and career setback</a></li>
 			<li><a href="#films">List of Films</a></li>
+				<ul><div>
+					<li><a href="#child">Child Artist</a></li>
+					<li><a href="#Lead">Lead Role</a></li>
+					<li><a href="#voice-over">Voice-over</a></li>
+				</ul></div>
 			<li><a href="#FullContent">Full Content</a></li>
 		</ul>
 	</section>
 
 	<h3 id="Images">Images of Mahesh Babu</h3>
-	<p><img src="MB.jpeg" width="400" height="200" alt="Picture"></p>
-	<p><img src="https://images.indulgexpress.com/uploads/user/imagelibrary/2020/1/25/original/MaheshBabuSourceInternet.jpg" width="400" height="325"></p>
-	<p><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Mahesh_Babu_in_Spyder_%28cropped%29.jpg" width="300" height="400"></p>
+	<p><img src="MB.jpeg" width="100%" alt="Picture"></p>
+	<p><img src="https://images.indulgexpress.com/uploads/user/imagelibrary/2020/1/25/original/MaheshBabuSourceInternet.jpg" width="350" height="400"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Mahesh_Babu_in_Spyder_%28cropped%29.jpg" width="350" height="400"><img src="https://mcmscache.epapr.in/post_images/website_197/post_13984693/thumb.jpg" width="350" height="400"><img src="https://i.pinimg.com/736x/af/dc/d2/afdcd2a5161755c7dea2d21942545dfa.jpg" width="350" height="400"></p>
 
 	<section id="EarlyLife"><h3>Early Life</h3>
 		<p>
@@ -133,12 +153,13 @@ Babu had two releases in 2014, the first one being Sukumar's 1: Nenokkadine, an 
 		</p>
 		
 	</section>
-
+"
 	<section id="films">
 		<h3>List of Films</h3>
+
 		<ul>
-			<li>As Child Artist:
-				<ol>
+			<li id="child" class="text-center">As Child Artist:
+				<ul><ol>
 					<li>Needa</li>
 					<li>Poratam</li>
 					<li>Sankharavam</li>
@@ -148,10 +169,12 @@ Babu had two releases in 2014, the first one being Sukumar's 1: Nenokkadine, an 
 					<li>KDK</li>
 					<li>Anna Thammudu</li>
 					<li>Balachandrudu</li>
-				</ol>
+				</ol></ul>
 			</li>
-			<li>As Lead Role:<p>(Click on the film name for Wikipedia!)</p>
-				<ol>
+			
+			<li id="Lead" class="text-center">As Lead Role:
+				
+				<ul><ol>
 					<li><a href="https://en.wikipedia.org/wiki/Raja_Kumarudu" target="_blank">Raja Kumarudu</a>  </li>
 					<li><a href="https://en.wikipedia.org/wiki/Yuvaraju"target="_blank">Yuvaraju</a></li>
 					<li><a href="https://en.wikipedia.org/wiki/Vamsi_(film)"target="_blank">Vamsi</a></li>
@@ -179,35 +202,37 @@ Babu had two releases in 2014, the first one being Sukumar's 1: Nenokkadine, an 
 					<li><a href="https://en.wikipedia.org/wiki/Maharshi_(2019_film)"target="_blank">Maharshi</a></li>
 					<li><a href="https://en.wikipedia.org/wiki/Sarileru_Neekevvaru"target="_blank">Sarileru Nekevvaru</a></li>
 
-				</ol>
+				</ol></ul>
+				<p class="text-center" style="font-size: 10px;">(Click on the film name for Wikipedia!)</p>
 			</li>
-			<li><p>Voice Over:</p>
-					<ol>
+			
+			<li id="voice-over" class="text-center">Voice Over:
+					<ul><ol>
 						<li>Jalsa</li>
 						<li>Baadshah</li>
 						<li>Sri Sri</li>
 						<li>Mansuku Nachindi</li>
-					</ol>
+					</ol></ul>
 				
 			</li>
 		</ul>
 	</section>
 
 	<section id="FullContent"><h4>Click wikipedia for full content.</h4>
-		<p>
-		<a href="https://en.wikipedia.org/wiki/Mahesh_Babu" target="_blank" title="wikipedia!">Wikipedia</a>
+		<p><div>
+		<a href="https://en.wikipedia.org/wiki/Mahesh_Babu" target="_blank" title="Mahesh Babu Wikipedia!">Wikipedia</a>
 		<div>Note:This is a complete reference of Wikipedia!</div>
-		</p>
+		</div></p>
 	</section>
 		
 	</section>
 	<div>
 		<p>
-			Back to top:<a href="#top">Click here</a>
+			Back to top:<a href="#top" title="back to top">Click here</a>
 		</p>
 	</div>
 	<p>&quot;Aim for Big&quot;</p>
-	<p>Sai Vikas Pasupuleti 2020 &copy; Copyright</p>
+	<p>Sai Vikas Pasupuleti 2020 &copy;&nbsp;Copyright</p>
 
 </body>
 </html>
